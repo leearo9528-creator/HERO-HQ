@@ -1,0 +1,151 @@
+:root {
+  --hero-blue: #87CEEB;
+}
+
+/* 임영웅 상징늘색 */
+
+body {
+  font-family: 'Apple SD Gothic Neo', sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  background-color: var(--hero-blue);
+  color: white;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.header p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.nav-button {
+  background: white;
+  border: 2px solid var(--hero-blue);
+  border-radius: 15px;
+  padding: 25px 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.1s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.nav-button:active {
+  transform: scale(0.95);
+  background-color: #e6f7ff;
+}
+
+.icon-img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 12px;
+  border-radius: 20%;
+  object-fit: cover;
+}
+
+.ad-space {
+  margin-top: 25px;
+  padding: 15px;
+  background: #eee;
+  border-radius: 10px;
+  font-size: 12px;
+  color: #888;
+  border: 1px dashed #ccc;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.highlight {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.guide-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #e6f7ff;
+  border-radius: 20px;
+  border: 1px solid #bae7ff;
+}
+
+.guide-section h3 {
+  font-size: 18px;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.guide-container {
+  display: flex;
+  gap: 15px;
+  text-align: left;
+}
+
+.guide-box {
+  flex: 1;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.device-name {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: #333;
+  border-bottom: 2px solid var(--hero-blue);
+  display: inline-block;
+}
+
+.guide-box ol {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 13px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.badge {
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* 모바일 화면에서는 세로로 배치 */
+@media (max-width: 480px) {
+  .guide-container {
+    flex-direction: column;
+  }
+}
