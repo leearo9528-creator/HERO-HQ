@@ -73,7 +73,7 @@ export default function Home() {
         <a href="https://www.genie.co.kr/detail/artistInfo?xxnm=80972154" className="nav-button" target="_blank" rel="noopener noreferrer">
           <img src="/logos/genie.png" alt="지니 로고" width="40" height="40" className="icon-img" /> 지니 스밍하기
         </a>
-        <a href="https://www.youtube.com/@LimYoungWoong" className="nav-button" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.youtube.com/@LYW_official" className="nav-button" target="_blank" rel="noopener noreferrer">
           <img src="/logos/youtube.png" alt="유튜브 로고" width="40" height="40" className="icon-img" /> 유튜브 보러가기
         </a>
         <a href="https://cafe.daum.net/hero0616" className="nav-button" target="_blank" rel="noopener noreferrer">
